@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Katalog menu kopi, non-kopi, dan camilan.">
+    <title>Katalog-KEL-4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">Kopi dingin, seger setiap hari!</div>
+    <nav class="catnav" aria-label="Kategori menu">
+            <a href="index.html" aria-current="page">Semua menu</a>
+            <a href="coffe.html">Coffee</a>
+            <a href="noncoffe.html">Non Coffee</a>
+            <a href="snack.html">Camilan</a>
+    </nav>
+    <header class="brandbar">
+        <a class="brand" href="index.html">wolsom</a>
+        <button class="cart" type="button" aria-label="Jumlah pesanan">Pesanan <span class="cart-count" id="cartCount" aria-live="polite">0</span></button>
+    </header>
+    <main>
+        <div class="wrap">
+            <section class="hero">
+                <div>
+                    <h1>Dingin, creamy, dan gak pernah gagal!</h1>
+                    <p>Enam minuman favorit, dari Americano sampai Matcha Latte. Seger buat dinikmati bareng-bareng.</p>
+                    <a class="link" href="#menu">Lihat menu</a><a class="link" href="coffe.html">Coffee</a>
+                </div>
+            </section>
+        </div>
+        <section class="intro wrap">
+            <h2>Kopi enak, dibikin gampang!</h2>
+            <a class="link" href="#menu">Pesan sekarang</a>
+        </section>
+    <svg class="wave" viewBox="0 0 1440 42" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 Q 180 0 360 22 T 720 22 T 1080 22 T 1440 22 V42 H0Z" fill="#F5E3C3"/></svg>
+        <section class="menu" id="menu" aria-labelledby="menu-title">
+            <div class="wrap">
+                <h2 class="menu-title" id="menu-title">Favorit semua orang</h2>
+                <div class="bento-wrap"><div class="bento">
+                <article class="pcard v-blue feature" style="--i:0">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/kopi4.jpeg" alt="Iced latte">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 28.000</span>
+                            <button class="add" type="button" aria-label="Tambah Iced Latte">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Lembut, anti pahit.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Smooth Creamy</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Iced Latte</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">08081 982279</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Espresso Milk</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pcard v-white" style="--i:1">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/kopi2.jpeg" alt="Americano dingin">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 25.000</span>
+                            <button class="add" type="button" aria-label="Tambah Americano">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Pahit tegas, nol drama.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Bold Classic</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Americano</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">40181 700982</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Iced Black Coffee</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pcard v-yellow" style="--i:2">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/WhatsApp%20Image%202026-09-27%20at%2018.10.46.jpeg" alt="Americano dengan irisan lemon">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 27.000</span>
+                            <button class="add" type="button" aria-label="Tambah Lemon Americano">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Segar, bikin melek.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Citrus Fresh</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Lemon Americano</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">61204 335017</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Lemon Coffee</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="tile-y" style="--i:3">
+                    <p>Katalog Kelompok 4</p>
+                    <span class="big" aria-hidden="true">7</span>
+                    <p>menu favorit, semuanya dingin dan seger. Pilih satu, atau borong semua!</p>
+                    <a class="link" href="coffe.html">Mulai dari Coffee</a>
+                </article>
+                <article class="pcard v-white" style="--i:4">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/nonkopi3.jpeg" alt="Kopi susu dingin">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 26.000</span>
+                            <button class="add" type="button" aria-label="Tambah Kopi Susu">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Manisnya pas.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Creamy Classic</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Kopi Susu</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">27730 481956</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Milk Coffee</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pcard v-blue" style="--i:5">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/nonkopi.jpeg" alt="Matcha latte dingin">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 30.000</span>
+                            <button class="add" type="button" aria-label="Tambah Matcha Latte">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Hijau, adem, no kopi.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Earthy Smooth</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Matcha Latte</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">93015 604728</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Matcha Milk</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pcard v-yellow" style="--i:6">
+                    <div class="pc">
+                        <div class="window">
+                            <img src="img/nonkopi2.jpeg" alt="Iced chocolate">
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 28.000</span>
+                            <button class="add" type="button" aria-label="Tambah Iced Chocolate">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Cokelat full power.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Rich Sweet</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Iced Chocolate</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">51846 290173</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Chocolate Milk</span></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="pcard v-white" style="--i:7">
+                    <div class="pc">
+                        <div class="window">
+                            <span class="emoji" aria-hidden="true">🥐</span>
+                            <span class="script" aria-hidden="true">wolsom</span>
+                            <span class="price">Rp 22.000</span>
+                            <button class="add" type="button" aria-label="Tambah Croissant">+</button>
+                        </div>
+                        <div class="copy">
+                            <h3 class="head">Renyah berlapis.</h3>
+                            <p class="kv style"><span class="k">Style</span><span class="v">Buttery Pastry</span></p>
+                            <p class="kv name"><span class="k">Name</span><span class="v">Croissant</span></p>
+                            <div class="bar"><div class="barcode" aria-hidden="true"></div><p class="code">74402 118365</p></div>
+                            <p class="kv type"><span class="k">Type</span><span class="v">Fresh Baked</span></p>
+                        </div>
+                    </div>
+                </article>
+                </div></div>
+            </div>
+        </section>
+    </main>
+<div class="marquee" aria-hidden="true"><div class="track"><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span><span>Really really good coffee!</span></div></div>
+    <div class="team">
+        <span class="label">Dibuat oleh Kelompok 4</span>
+        <span>Aulia Fachri</span><span>Muhammad Aria Khalil</span><span>Muhammad Farrel Rizky</span><span>Rangga Prataya Setiono Putro</span><span>Syabita Putri Safina</span>
+    </div>
+    <footer class="footer">
+        <strong>wolsom</strong>
+        <p>Katalog-KEL-4</p>
+    </footer>
+</body>
+</html>
